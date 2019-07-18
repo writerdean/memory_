@@ -1,0 +1,102 @@
+*,
+*::before,
+*::after {
+  /* box-sizing: border-box; */
+}
+
+/* The animation code */
+@keyframes gameOver{
+  /* .grid { */
+    0%   {background-color: violet;}
+    16.65%  {background-color: indigo;}
+    33.3%  {background-color: green;}
+    50%  {background-color: blue;}
+    66.6%  {background-color: yellow;}
+    83.25%  {background-color: orange;}
+    100% {background-color: red;}
+  /* }
+    0%   {border-color: red;}
+    16.65%  {border-color: orange;}
+    33.3%  {border-color: yellow;}
+    50%  {border-color: blue;}
+    66.6%  {border-color: green;}
+    83.25%  {border-color: indigo;}
+    100% {border-color: violet;} */
+}
+
+
+/* The element to apply the animation to */
+body.winner {
+    border-color: red;
+    border: 10px solid #6589F9;
+    animation-name: gameOver;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: 4;
+}
+
+body {
+  margin: 20px 0;
+  background: #6589F9;
+}
+
+body .over {
+  background-color: green;
+}
+
+.grid {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  animation-name: gameOverBorder;
+  animation-duration: 1s;
+  animation-direction: alternate;
+  animation-iteration-count: 4;
+}
+
+.card {
+  position: relative;
+  transition: all .4s linear;
+  transform-style: preserve-3d;
+  margin: 5px;
+}
+
+.card,
+.back,
+.front {
+  height: 150px;
+  width: 150px;
+}
+
+.back,
+.front {
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.front {
+  z-index: 2;
+  background-color: #FAB942;
+}
+
+.back {
+  transform: rotateY(180deg);
+  background-color: #6589F9;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.selected {
+  transform: rotateY(180deg);
+}
+
+.match .front {
+  background: #6589F9 !important;
+}
+
+.inline {
+  display: inline-block;
+}
