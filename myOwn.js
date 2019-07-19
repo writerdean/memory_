@@ -1,5 +1,5 @@
 const allCards = [
-  {name: 'Ali', img: 'ali.jpg'},
+  {name: 'Ali', img: 'Ali.jpg'},
   {name: 'ali_hula', img: 'ali_hula.jpg'},
   {name: 'ali_cupcake', img: 'ali_cupcake.jpg'},
   {name: 'ali_wings', img: 'ali_wings.jpg'},
