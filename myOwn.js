@@ -9,7 +9,7 @@ const allCards = [
   {name: 'city_sunnies', img: 'city_sunnies.jpg'},
   {name: 'DeeDee', img: 'DeeDee.jpg'},
   {name: 'Family', img: 'Family.jpg'},
-  {name: 'guitar', img: 'guitar.jpg'} ,
+  {name: 'guitar', img: 'guitar.JPG'} ,
   {name: 'Hunter', img: 'Hunter.jpg'},
   {name: 'jen_joe_sunnies', img: 'jen_joe_sunnies.jpg'},
   {name: 'Jen', img: 'Jen.jpg'},
