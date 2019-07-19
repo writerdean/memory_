@@ -19,7 +19,9 @@ const allCards = [
   {name: 'tongues', img: 'tongues.jpg'},
   {name: 'KC', img: 'KC.jpg'},
   {name: 'go_to_face', img: 'go_to_face.jpg'},
-  {name: 'joe_jen', img: 'joe_jen.jpg'},
+  {name: 'makena_aub', img: 'makena_aub.jpg'},
+  {name: 'hunter_ali', img: 'hunter_ali.jpg'},
+  {name: 'Aub', img: 'Aub.jpg'},
   {name: 'girls', img: 'girls.jpg'}
 ]
 
